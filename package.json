@@ -1,10 +1,14 @@
 {
   "name": "c2md",
   "version": "1.0.0",
-  "description": "",
+  "description": "Output HTML clipboard contents to markdown in the terminal (MacOs only)",
   "main": "index.js",
   "bin": {
     "c2md": "bin/c2md.js"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/kswedberg/c2md.git"
   },
   "scripts": {},
   "keywords": [],

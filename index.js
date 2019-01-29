@@ -31,8 +31,8 @@ const c2md = () => {
   clipboard.stdout.on('data', onData);
   clipboard.stderr.on('data', onError);
   clipboard.on('close', (code) => {
-    if (code < 1) {
-      console.log(`\nfinished!`);
+    if (code >= 1) {
+      console.log(`\nError code ${code}`);
     }
   });
 };
