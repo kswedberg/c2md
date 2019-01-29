@@ -7,8 +7,8 @@
     "c2md": "bin/c2md.js"
   },
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/kswedberg/c2md.git"
+    "type": "git",
+    "url": "https://github.com/kswedberg/c2md.git"
   },
   "scripts": {},
   "keywords": [],
