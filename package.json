@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "bin": {
-    "c2md": "c2md.js"
+    "c2md": "bin/c2md.js"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "keywords": [],
   "author": "Karl Swedberg <kswedberg@gmail.com> (https://karlswedberg.com/)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "turndown": "^5.0.3"
+  }
 }
